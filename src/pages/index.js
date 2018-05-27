@@ -7,11 +7,15 @@ export default class IndexPage extends React.Component {
     const { data } = this.props
     const { edges: posts } = data.allMarkdownRemark
 
+
+    console.log(data.allMarkdownRemark.edges[1].node);
+
+
     return (
       <section className="section">
         <div className="container">
           <div className="content">
-            <h1 className="has-text-weight-bold is-size-2">Latest Stories</h1>
+            <h1 className="has-text-weight-bold is-size-2">Últimas historias</h1>
           </div>
           {posts
             .filter(post => post.node.frontmatter.templateKey === 'blog-post')
