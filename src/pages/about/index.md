@@ -1,7 +1,9 @@
 ---
-templateKey: 'about-page'
-path: /about
+templateKey: about-page
 title: Acerca de la Bichilla
 ---
 ### nosea tonto mae
-Buzzzzz
+
+Buzzzzz 
+
+![](/img/bichilla-logo.png)
