@@ -8,7 +8,7 @@ export default class IndexPage extends React.Component {
     const { edges: posts } = data.allMarkdownRemark
 
 
-    console.log(data.allMarkdownRemark.edges[1].node);
+    // console.log(data.allMarkdownRemark.edges[1].node);
 
 
     return (
@@ -37,7 +37,7 @@ export default class IndexPage extends React.Component {
                   <br />
                   <br />
                   <Link className="button is-small" to={post.fields.slug}>
-                    Keep Reading →
+                    Sigue leyendo →
                   </Link>
                 </p>
               </div>
