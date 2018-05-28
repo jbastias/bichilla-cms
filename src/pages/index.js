@@ -8,7 +8,6 @@ export default class IndexPage extends React.Component {
     const { edges: posts } = data.allMarkdownRemark
 
 
-    // console.log(data.allMarkdownRemark.edges[1].node);
 
 
     return (
